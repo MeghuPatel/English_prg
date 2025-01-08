@@ -1,0 +1,72 @@
+:root {
+    --color1: #290907;
+    --color2: #57473a;
+    --color3: #6e8658;
+    --color4: #73a1b2;
+    --color5: #d0d5ce;
+    --color6: #efe9e1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color3);
+    color: var(--color1);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color2);
+    color: var(--color6);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--color2);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--color6);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--color4);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--color2);
+    color: var(--color6);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color1);
+}
+
+h2 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+}
+
+h3 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+h4 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
